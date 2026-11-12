@@ -1,4 +1,4 @@
-# DA — Data Analytics Projects
+#Data Analytics Projects
 
 A curated collection of completed Data Analytics and Exploratory Data Analysis (EDA) projects developed as part of professional data analytics coursework, fully equipped with verified datasets and documentation.
 
