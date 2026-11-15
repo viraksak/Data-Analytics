@@ -1,6 +1,6 @@
 #Data Analytics Projects
 
-A curated collection of completed Data Analytics and Exploratory Data Analysis (EDA) projects developed as part of professional data analytics coursework, fully equipped with verified datasets and documentation.
+A curated collection of completed Data Analytics and Exploratory Data Analysis (EDA) projects developed as part of professional data analytics coursework, fully equipped with verified datasets, visualizations, and documentation.
 
 ---
 
@@ -21,17 +21,19 @@ A curated collection of completed Data Analytics and Exploratory Data Analysis (
 - **Notebooks:**
   - `Activity_Course 2 TikTok project lab.ipynb`: Stage 1 — Video claims data inspection, claim status distribution (`claim` vs. `opinion`), and author ban status analysis with preserved execution outputs.
   - `Activity_Course 3 TikTok project lab.ipynb`: Stage 2 — Comprehensive Exploratory Data Analysis (EDA), engagement visualizations (view, like, share, and download count distributions), and claims analysis with preserved outputs.
-- **Datasets:**
+- **Datasets & Assets:**
   - `datasets/tiktok_dataset.csv` (19,382 records, 12 columns).
   - `images/`: PACE workflow diagrams and process assets.
 
 ### 3. [03_Waze_User_Churn_Analysis](./03_Waze_User_Churn_Analysis)
-- **Description:** User churn analysis and behavioral segmentation for Waze, analyzing driver retention, trip frequency, driving days, and device platforms (iPhone vs. Android).
-- **Technologies Used:** Python, Pandas, NumPy, Jupyter Notebook.
+- **Description:** User churn analysis and behavioral segmentation for Waze, analyzing driver retention, trip frequency, driving days, and device platforms (iPhone vs. Android) through exploratory data analysis and visual storytelling.
+- **Technologies Used:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook.
 - **Notebooks:**
-  - `Activity_Course 2 Waze project lab.ipynb`: Exploratory analysis comparing churned vs. retained users, handling missing values in labels, analyzing driving patterns per day, and evaluating mobile platform retention rates (16/16 cells fully executed).
-- **Datasets:**
-  - `datasets/waze_dataset.csv` (14,999 records, 13 columns). Recovered and verified from official course repository.
+  - `Activity_Course 2 Waze project lab.ipynb`: Stage 1 — Exploratory analysis comparing churned vs. retained users, handling missing values in labels, analyzing driving patterns per day, and evaluating mobile platform retention rates (16/16 cells fully executed).
+  - `Activity_Course 3 Waze project lab.ipynb`: Stage 2 — Comprehensive Exploratory Data Analysis (EDA), distribution visualization (boxplots and histograms for sessions, drives, km, duration, driving days, and activity days), user churn proportions, and outlier handling (42/42 cells fully executed).
+- **Datasets & Assets:**
+  - `datasets/waze_dataset.csv` (14,999 records, 13 columns).
+  - `images/`: PACE workflow diagrams and process assets.
 
 ---
 
@@ -61,7 +63,14 @@ DA/
 │       └── tiktok_dataset.csv
 └── 03_Waze_User_Churn_Analysis/
     ├── Activity_Course 2 Waze project lab.ipynb
+    ├── Activity_Course 3 Waze project lab.ipynb
     ├── waze_dataset.csv
+    ├── images/
+    │   ├── Plan.png
+    │   ├── Analyze.png
+    │   ├── Construct.png
+    │   ├── Execute.png
+    │   └── Pace.png
     └── datasets/
         └── waze_dataset.csv
 ```
