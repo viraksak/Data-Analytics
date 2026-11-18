@@ -16,7 +16,9 @@ ENV/
 Thumbs.db
 desktop.ini
 
-# Large archives (>100MB)
+# Large archives and large datasets (>100MB)
 *.zip
 *.tar.gz
 *.twbr
+04_Cyclistic_Bike_Share_Analysis/data/
+

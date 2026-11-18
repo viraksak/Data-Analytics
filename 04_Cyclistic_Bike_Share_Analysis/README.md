@@ -53,5 +53,7 @@ The following charts generated in the notebook are preserved in [`images/`](./im
 
 ---
 
-## Data Notice
-Due to GitHub file size limits, the full multi-gigabyte dataset is indexed in [`datasets/README.md`](./datasets/README.md) with download instructions. A 5,000-row sample (`cyclistic_sample.csv`) is provided for immediate testing and verification.
+## Data Notice & Architecture
+- **Full Dataset (Local):** The complete local dataset is stored in `data/` (~2.58 GB across `cyclistic_combined.csv`, `cyclistic_cleaned.csv`, and `data/raw/` monthly files). It is fully accessible for local runs and excluded from Git commits via `.gitignore` to comply with GitHub's 100 MB single-file limit.
+- **Repository Sample:** A verified 5,000-row sample (`datasets/cyclistic_sample.csv`) is included in the Git repository for immediate preview and testing.
+- **Full Data Download:** Instructions and links to download the complete raw historical data archives are documented in [`datasets/README.md`](./datasets/README.md).
