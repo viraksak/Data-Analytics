@@ -1,4 +1,4 @@
-#Data Analytics Projects
+# Data Analytics Projects
 
 A curated collection of completed Data Analytics and Exploratory Data Analysis (EDA) projects developed as part of professional data analytics coursework, fully equipped with verified datasets, visualizations, and documentation.
 
@@ -35,12 +35,23 @@ A curated collection of completed Data Analytics and Exploratory Data Analysis (
   - `datasets/waze_dataset.csv` (14,999 records, 13 columns).
   - `images/`: PACE workflow diagrams and process assets.
 
+### 4. [04_Cyclistic_Bike_Share_Analysis](./04_Cyclistic_Bike_Share_Analysis)
+- **Description:** Case study analyzing over 5.7 million bike trips for Cyclistic, identifying behavioral differences between casual riders and annual members to formulate data-driven conversion and marketing strategies.
+- **Technologies Used:** Python, Pandas, NumPy, Matplotlib, Plotly Express, Jupyter Notebook.
+- **Notebooks & Reports:**
+  - `Cyclistic.ipynb`: Comprehensive end-to-end data processing, feature engineering, exploratory data analysis, and visualizations.
+  - `report/Business Insight.txt`: Key business findings, usage comparisons, and strategic recommendations for stakeholders.
+- **Datasets & Assets:**
+  - `datasets/cyclistic_sample.csv` (5,000 records, 18 features sample dataset).
+  - `datasets/README.md`: Data dictionary and instructions for downloading full Divvy tripdata archives.
+  - `images/`: High-resolution charts (ride counts, average ride length, hourly/weekly/monthly usage, bike types, and top stations).
+
 ---
 
 ## Repository Structure
 
 ```text
-DA/
+.
 ├── README.md
 ├── .gitignore
 ├── 01_Automatidata_NYC_Taxi_Trip_Analysis/
@@ -61,18 +72,35 @@ DA/
 │   │   └── Pace.png
 │   └── datasets/
 │       └── tiktok_dataset.csv
-└── 03_Waze_User_Churn_Analysis/
-    ├── Activity_Course 2 Waze project lab.ipynb
-    ├── Activity_Course 3 Waze project lab.ipynb
-    ├── waze_dataset.csv
+├── 03_Waze_User_Churn_Analysis/
+│   ├── Activity_Course 2 Waze project lab.ipynb
+│   ├── Activity_Course 3 Waze project lab.ipynb
+│   ├── waze_dataset.csv
+│   ├── images/
+│   │   ├── Plan.png
+│   │   ├── Analyze.png
+│   │   ├── Construct.png
+│   │   ├── Execute.png
+│   │   └── Pace.png
+│   └── datasets/
+│       └── waze_dataset.csv
+└── 04_Cyclistic_Bike_Share_Analysis/
+    ├── Cyclistic.ipynb
+    ├── README.md
+    ├── report/
+    │   └── Business Insight.txt
     ├── images/
-    │   ├── Plan.png
-    │   ├── Analyze.png
-    │   ├── Construct.png
-    │   ├── Execute.png
-    │   └── Pace.png
+    │   ├── Average Ride Length.png
+    │   ├── Bike Type.png
+    │   ├── Hourly Usage.png
+    │   ├── monthly usage.png
+    │   ├── Ride Count.png
+    │   ├── Top 10 End Station.png
+    │   ├── Top 10 Start Station.png
+    │   └── Weekly Usage.png
     └── datasets/
-        └── waze_dataset.csv
+        ├── README.md
+        └── cyclistic_sample.csv
 ```
 
 ---
@@ -82,5 +110,5 @@ DA/
 To explore or execute these notebooks locally, install the standard data analytics stack:
 
 ```bash
-pip install jupyter pandas numpy matplotlib seaborn
+pip install jupyter pandas numpy matplotlib seaborn plotly
 ```

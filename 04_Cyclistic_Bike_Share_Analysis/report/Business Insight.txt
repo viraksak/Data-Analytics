@@ -1,0 +1,40 @@
+Business Insight
+
+Insight 1 - Ride Count
+
+Annual members completed significantly more rides than casual riders during the analysis period. This indicates that members use the Cyclistic Bike-Sharing service more frequently and are likely to rely on it for regular transportation.
+
+
+Insight 2 - Average Ride Length
+
+Casual riders had a longer average ride duration than annual members. This suggests that casual riders mainly use Cyclistic bikes for leisure or recreational activities, while members tend to take shorter, routine trips
+
+Insight 3 - Weekly Usage
+
+Annual members showed consistent usage throughout the workweek, whereas casual rider had relativity higher usage on weekends, This pattern suggests commuting behavior among members and and leisure-oriented behavior among casual riders.
+
+Insight 4 - Monthly Usage
+
+Bike usage increased during the warmer months and decreased during colder months. Both rider groups followed this seasonal trend, although the number of member rides remained higher throughout the year
+
+Insight 5 - Bike Type Preference
+
+Classic bikes and electric bikes were the most frequently used bike types. Comparing the two rider groups helps identify whether casual riders favor electric bikes, which could influence future marketing.
+
+Insight 6 - Hourly Usage
+
+Members showed clear riding peaks during commuting hours, while casual riders displayed a more even distribution of rides throughout the day, suggesting more flexible travel purpose.
+
+Insight 7 - Top start station
+
+A small number of start stations accounted for a large share of rides, indicating that these locations are important transportation hubs or popular destinations
+
+Insight 8 - Top end station 
+
+The most popular end stations were similar to the most popular start station ,suggesting frequent travel between key areas within the Cyclistic network.
+
+Overall Conclusion
+Finish the section with a summary
+
+	overall, annual members and casual riders demonstrate different usage patterns. Members use Cyclistic more frequently and primarily for commutting ,while casual riders take longer rides and are more active during weekends and warmer months . These differences provide opportunities to design targeted marketing campaigns that encourage casual riders to become annual members
+
