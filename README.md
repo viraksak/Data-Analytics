@@ -46,6 +46,13 @@ A curated collection of completed Data Analytics and Exploratory Data Analysis (
   - `datasets/README.md`: Data dictionary and instructions for downloading full Divvy tripdata archives.
   - `images/`: High-resolution charts (ride counts, average ride length, hourly/weekly/monthly usage, bike types, and top stations).
 
+### 5. [glossaries](./glossaries)
+- **Description:** Official reference glossaries from Google's professional certificates (Google Data Analytics, Google Advanced Data Analytics, and Google AI Essentials), categorized by program and course milestone with specific, descriptive filenames.
+- **Programs Covered:**
+  - `Google_Advanced_Data_Analytics/`: Complete certificate master glossary and individual glossaries for Courses 1, 2, and 7.
+  - `Google_Data_Analytics/`: Complete 8-course master glossary and course-level glossaries for Courses 1, 2, 4, 5, and 6.
+  - `Google_AI_Essentials/`: Official AI Essentials course glossary.
+
 ---
 
 ## Repository Structure
@@ -84,23 +91,39 @@ A curated collection of completed Data Analytics and Exploratory Data Analysis (
 │   │   └── Pace.png
 │   └── datasets/
 │       └── waze_dataset.csv
-└── 04_Cyclistic_Bike_Share_Analysis/
-    ├── Cyclistic.ipynb
+├── 04_Cyclistic_Bike_Share_Analysis/
+│   ├── Cyclistic.ipynb
+│   ├── README.md
+│   ├── report/
+│   │   └── Business Insight.txt
+│   ├── images/
+│   │   ├── Average Ride Length.png
+│   │   ├── Bike Type.png
+│   │   ├── Hourly Usage.png
+│   │   ├── monthly usage.png
+│   │   ├── Ride Count.png
+│   │   ├── Top 10 End Station.png
+│   │   ├── Top 10 Start Station.png
+│   │   └── Weekly Usage.png
+│   └── datasets/
+│       ├── README.md
+│       └── cyclistic_sample.csv
+└── glossaries/
     ├── README.md
-    ├── report/
-    │   └── Business Insight.txt
-    ├── images/
-    │   ├── Average Ride Length.png
-    │   ├── Bike Type.png
-    │   ├── Hourly Usage.png
-    │   ├── monthly usage.png
-    │   ├── Ride Count.png
-    │   ├── Top 10 End Station.png
-    │   ├── Top 10 Start Station.png
-    │   └── Weekly Usage.png
-    └── datasets/
-        ├── README.md
-        └── cyclistic_sample.csv
+    ├── Google_Advanced_Data_Analytics/
+    │   ├── Google_Advanced_Data_Analytics_Certificate_Complete_Glossary.docx
+    │   ├── Course_1_Foundations_of_Data_Science_Glossary.docx
+    │   ├── Course_2_Get_Started_with_Python_Glossary.docx
+    │   └── Course_7_Google_Advanced_Data_Analytics_Capstone_Glossary.docx
+    ├── Google_Data_Analytics/
+    │   ├── Google_Data_Analytics_Certificate_Complete_Glossary.docx
+    │   ├── Course_1_Foundations_Data_Data_Everywhere_Glossary.docx
+    │   ├── Course_2_Ask_Questions_to_Make_Data_Driven_Decisions_Glossary.docx
+    │   ├── Course_4_Process_Data_from_Dirty_to_Clean_Glossary.docx
+    │   ├── Course_5_Analyze_Data_to_Answer_Questions_Glossary.docx
+    │   └── Course_6_Share_Data_Through_the_Art_of_Visualization_Glossary.docx
+    └── Google_AI_Essentials/
+        └── Google_AI_Essentials_Course_Glossary.docx
 ```
 
 ---
